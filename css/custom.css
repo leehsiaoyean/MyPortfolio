@@ -1,0 +1,163 @@
+
+main {
+    background-color: #ffffff; /* Replace with desired light brown color code */
+}
+
+#skills {
+	background-color: rgb(255, 252, 246);
+  }
+
+  #activities {
+    background-color: rgb(255, 252, 246) ;
+}
+
+/**portfolio**/
+#portfolio {
+	background-color: rgb(255, 252, 246);
+	padding: 80px 0;
+  }
+  
+  .intro-text h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #333;
+  }
+  
+  .intro-text p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 30px;
+	color: #666;
+  }
+  
+  .intro-images {
+	text-align: center;
+	margin-top: 30px;
+  }
+
+  
+  
+  .intro-images img {
+	border-radius: 40%;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-images img:hover {
+	transform: scale(1.2) !important;
+	transition: all 0.3s ease-in-out;
+  }
+  
+
+/** hobby **/
+#hobby {
+	background-color: #444342;
+	padding: 80px 0;
+}
+
+.hobby-box {
+	background-color: #d5d3d3;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.hobby-thumb {
+	position: relative;
+	overflow: hidden;
+    height: 300px;
+}
+
+.hobby-thumb img {
+	transition: transform 0.3s ease-out;
+}
+
+.hobby-thumb:hover img {
+	transform: scale(1.1);
+}
+
+.hobby-info {
+	padding: 20px;
+}
+
+.hobby-info h4 {
+	margin-top: 0;
+}
+
+.hobby-info p {
+	margin-bottom: 0;
+}
+
+/* Footer Styling */
+/* Footer styles */
+
+.footer {
+	background-color: #f9fafb;
+	padding: 30px 0;
+  }
+  
+  .footer p {
+	font-size: 16px;
+	margin: 0;
+	margin-top: 30px;
+	color: #8f9aa9;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	text-justify: inter-word;
+  }
+  
+  .footer a {
+	color: #333333;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0 10px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .footer a:hover {
+	color: #007bff;
+  }
+  
+  .footer a i {
+	font-size: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+  }
+  
+  
+  @media (max-width: 767px) {
+	.footer {
+	  text-align: center;
+	}
+	
+	.footer a {
+	  display: block;
+	  margin: 10px auto;
+	}
+  }
+  
+  /**resume button**/
+  .download-btn {
+	background-color: #2196F3;
+	border: none;
+	color: white;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+	background-color: #0b7dda;
+  }
+  
